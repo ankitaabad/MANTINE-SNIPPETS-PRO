@@ -1,0 +1,28 @@
+{
+  "name": "mantine-snippets-pro",
+  "displayName": "Mantine Snippets Pro",
+  "description": "120+ snippets for mantine ui library to supercharge ui development.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "scripts": {
+    "g": "ts-node -T generateSnippets.ts",
+    "gm":"ts-node -T generateSnippets.ts > table.md"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "path": "./snippets/global.code-snippets"
+      }
+    ]
+  },
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "markdown-table": "^3.0.3",
+    "markdown-table-ts": "^1.0.3"
+  }
+}
