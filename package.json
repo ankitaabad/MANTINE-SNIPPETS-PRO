@@ -2,8 +2,10 @@
   "name": "mantine-snippets-pro",
   "displayName": "Mantine Snippets Pro",
   "description": "120+ snippets for mantine ui library to supercharge ui development.",
+  "publisher": "ankitaabad",
   "repository": {"url": "https://github.com/ankitaabad/MANTINE-SNIPPETS-PRO"},
   "version": "0.0.1",
+  "icon":"icon.png",
   "engines": {
     "vscode": "^1.87.0"
   },
